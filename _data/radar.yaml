@@ -1,13 +1,52 @@
 version: 2019-11
 quadrants:
   - name: Security
-    technologies: []
+    technologies:
+
+      - name: Vault
+        link: https://www.vaultproject.io/
+        ring: 0
 
   - name: CI/CD
-    technologies: []
+    technologies:
+
+      - name: Terraform
+        link: https://terraform.io
+        ring: 0
+
+      - name: Tekton
+        link: https://tekton.dev
+        ring: 2
+
+      - name: Jenkins X
+        link: https://jenkins-x.io/
+        ring: 1
 
   - name: Orchestration
-    technologies: []
+    technologies:
+
+      - name: Kubernetes
+        link: https://kubernetes.io
+        ring: 0
+
+      - name: Knative
+        link: https://knative.dev
+        ring: 2
+
+      - name: Docker Swarm
+        ring: 3
 
   - name: Operation
-    technologies: []
+    technologies:
+
+      - name: Prometheus
+        link: https://prometheus.io
+        ring: 0
+
+      - name: Istio
+        link: https://istio.io/
+        ring: 1
+
+      - name: cert-manager
+        link: http://docs.cert-manager.io/en/latest/
+        ring: 0
