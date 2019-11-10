@@ -12,6 +12,10 @@ quadrants:
         link: https://www.vaultproject.io/
         ring: 0
 
+      - name: Open Policy Agent
+        link: https://www.openpolicyagent.org/
+        ring: 1
+
   - name: CI/CD
     technologies:
 
@@ -59,12 +63,36 @@ quadrants:
         link: https://jenkins.io/
         ring: 3
 
-  - name: Orchestration
+      - name: TeamCity
+        link: https://www.jetbrains.com/teamcity/
+        ring: 3
+
+  - name: Orchestration & Management
     technologies:
 
       - name: Kubernetes
         link: https://kubernetes.io
         ring: 0
+
+      - name: gRPC
+        link: https://grpc.io/
+        ring: 1
+
+      - name: Envoy
+        link: https://www.envoyproxy.io/
+        ring: 1
+
+      - name: Kong
+        link: https://konghq.com/
+        ring: 1
+
+      - name: Ambassador
+        link: https://www.getambassador.io/
+        ring: 2
+
+      - name: Gloo
+        link: https://www.solo.io/
+        ring: 2
 
       - name: Knative
         link: https://knative.dev
@@ -76,20 +104,60 @@ quadrants:
       - name: Docker EE
         ring: 3
 
-  - name: Operation
+      - name: Nomad
+        link: https://www.nomadproject.io/
+        ring: 3
+
+      - name: Consul
+        link: https://www.consul.io/
+        ring: 3
+
+  - name: Observability & Analysis
     technologies:
 
       - name: Prometheus
         link: https://prometheus.io
         ring: 0
 
-      - name: Istio
-        link: https://istio.io/
-        ring: 1
+      - name: Grafana
+        link: https://grafana.com/
+        ring: 0
+
+      - name: Fluentd
+        link: https://www.fluentd.org/
+        ring: 0
 
       - name: cert-manager
         link: http://docs.cert-manager.io/en/latest/
         ring: 0
 
-      - name: Docker Hub
+      - name: Istio
+        link: https://istio.io/
+        ring: 1
+
+      - name: Kiali
+        link: https://www.kiali.io/
+        ring: 1
+
+      - name: Jaeger
+        link: https://www.jaegertracing.io/
+        ring: 1
+
+      - name: Grafana Loki
+        link: https://grafana.com/oss/loki
+        ring: 2
+
+      - name: OpenTelemetry
+        link: https://opentelemetry.io/
+        ring: 3
+
+      - name: Docker Registry
+        ring: 3
+
+      - name: Logstash
+        link: https://www.elastic.co/products/logstash
+        ring: 3
+
+      - name: Splunk
+        link: https://www.splunk.com/
         ring: 3
