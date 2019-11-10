@@ -1,3 +1,8 @@
+# ring 0 = ADOPT
+# ring 1 = TRIAL
+# ring 2 = ASSESS
+# ring 3 = HOLD
+
 version: 2019-11
 quadrants:
   - name: Security
