@@ -23,13 +23,41 @@ quadrants:
         link: https://helm.sh
         ring: 0
 
+      - name: Jenkins X
+        link: https://jenkins-x.io/
+        ring: 1
+
+      - name: Flux
+        link: github.com/fluxcd/flux
+        ring: 1
+
       - name: Tekton
         link: https://tekton.dev
         ring: 2
 
-      - name: Jenkins X
-        link: https://jenkins-x.io/
-        ring: 1
+      - name: GitHub Actions
+        link: https://github.com/features/actions
+        ring: 2
+
+      - name: Argo
+        link: https://argoproj.github.io/
+        ring: 2
+
+      - name: Bamboo
+        link: atlassian.com/software/bamboo
+        ring: 3
+
+      - name: Octopus Deploy
+        link: https://octopus.com/
+        ring: 3
+
+      - name: Travis CI
+        link: https://travis-ci.com/
+        ring: 3
+
+      - name: Jenkins
+        link: https://jenkins.io/
+        ring: 3
 
   - name: Orchestration
     technologies:
@@ -43,6 +71,9 @@ quadrants:
         ring: 2
 
       - name: Docker Swarm
+        ring: 3
+
+      - name: Docker EE
         ring: 3
 
   - name: Operation
@@ -59,3 +90,6 @@ quadrants:
       - name: cert-manager
         link: http://docs.cert-manager.io/en/latest/
         ring: 0
+
+      - name: Docker Hub
+        ring: 3
