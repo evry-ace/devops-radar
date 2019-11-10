@@ -1,0 +1,10 @@
+name: DevOps Tech Radar
+version: 2019-11
+
+timezone: NO
+encoding: UTF-8
+
+repository: evry-ace/devops-radar
+
+gems:
+- jemoji
