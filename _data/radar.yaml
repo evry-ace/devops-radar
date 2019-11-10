@@ -14,6 +14,10 @@ quadrants:
         link: https://terraform.io
         ring: 0
 
+      - name: Helm
+        link: https://helm.sh
+        ring: 0
+
       - name: Tekton
         link: https://tekton.dev
         ring: 2
