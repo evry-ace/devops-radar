@@ -49,7 +49,7 @@ quadrants:
 
       - name: Bamboo
         link: atlassian.com/software/bamboo
-        ring: 3
+        ring: 4
 
       - name: Octopus Deploy
         link: https://octopus.com/
@@ -61,7 +61,7 @@ quadrants:
 
       - name: Jenkins
         link: https://jenkins.io/
-        ring: 3
+        ring: 4
 
       - name: TeamCity
         link: https://www.jetbrains.com/teamcity/
@@ -111,6 +111,14 @@ quadrants:
       - name: Consul
         link: https://www.consul.io/
         ring: 3
+
+      - name: Sceptre
+        link: https://sceptre.cloudreach.com
+        ring: 3
+
+      - name: Puppet
+        link: https://puppet.com/
+        ring: 2
 
   - name: Observability & Analysis
     technologies:
