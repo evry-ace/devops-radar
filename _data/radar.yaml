@@ -57,7 +57,7 @@ quadrants:
 
       - name: Bamboo
         link: atlassian.com/software/bamboo
-        ring: 4
+        ring: 3
 
       - name: Octopus Deploy
         link: https://octopus.com/
@@ -69,7 +69,7 @@ quadrants:
 
       - name: Jenkins
         link: https://jenkins.io/
-        ring: 4
+        ring: 3
 
       - name: TeamCity
         link: https://www.jetbrains.com/teamcity/
