@@ -20,6 +20,10 @@ quadrants:
         link: https://attack.mitre.org/
         ring: 2
 
+      - name: Falco
+        link: https://falco.org/
+        ring: 1
+
   - name: CI/CD
     technologies:
 
