@@ -75,6 +75,14 @@ quadrants:
         link: https://www.jetbrains.com/teamcity/
         ring: 3
 
+      - name: XebiaLabs XL Deploy
+        link: https://xebialabs.com/products/deployment-automation-xl-deploy/
+        ring: 1
+
+      - name: OpenShift
+        link: https://www.openshift.com/
+        ring: 2
+
   - name: Orchestration & Management
     technologies:
 
@@ -189,3 +197,11 @@ quadrants:
       - name: Honeycomb
         link: https://www.honeycomb.io/
         ring: 1
+
+      - name: New Relic
+        link: https://newrelic.com/
+        ring: 2
+
+      - name: Dynatrace
+        link: https://www.dynatrace.com/
+        ring: 2
