@@ -122,11 +122,11 @@ quadrants:
 
       - name: Sceptre
         link: https://sceptre.cloudreach.com
-        ring: 3
+        ring: 2
 
       - name: Puppet
         link: https://puppet.com/
-        ring: 2
+        ring: 1
 
       - name: Cortex
         link: https://github.com/cortexproject/cortex
