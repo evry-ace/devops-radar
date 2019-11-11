@@ -16,6 +16,10 @@ quadrants:
         link: https://www.openpolicyagent.org/
         ring: 1
 
+      - name: 'MITRE ATT&CK'
+        link: https://attack.mitre.org/
+        ring: 2
+
   - name: CI/CD
     technologies:
 
