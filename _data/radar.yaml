@@ -185,3 +185,7 @@ quadrants:
       - name: Splunk
         link: https://www.splunk.com/
         ring: 3
+
+      - name: Honeycomb
+        link: https://www.honeycomb.io/
+        ring: 1
