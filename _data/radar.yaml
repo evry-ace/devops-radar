@@ -124,6 +124,14 @@ quadrants:
         link: https://puppet.com/
         ring: 2
 
+      - name: Cortex
+        link: https://github.com/cortexproject/cortex
+        ring: 1
+
+      - name: Traefik
+        link: https://github.com/containous/traefik
+        ring: 3
+
   - name: Observability & Analysis
     technologies:
 
