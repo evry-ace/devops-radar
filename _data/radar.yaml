@@ -24,6 +24,14 @@ quadrants:
         link: https://falco.org/
         ring: 1
 
+      - name: Twistlock
+        link: https://twistlock.com/
+        ring: 1
+
+      - name: Splunk
+        link: https://splunk.com/
+        ring: 3
+
   - name: CI/CD
     technologies:
 
@@ -136,10 +144,6 @@ quadrants:
         link: https://puppet.com/
         ring: 1
 
-      - name: Cortex
-        link: https://github.com/cortexproject/cortex
-        ring: 1
-
       - name: Traefik
         link: https://github.com/containous/traefik
         ring: 3
@@ -205,3 +209,11 @@ quadrants:
       - name: Dynatrace
         link: https://www.dynatrace.com/
         ring: 2
+
+      - name: Cortex
+        link: https://github.com/cortexproject/cortex
+        ring: 1
+
+      - name: Thanos
+        link: https://github.com/cortexproject/thanos
+        ring: 1
