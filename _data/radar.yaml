@@ -148,6 +148,10 @@ quadrants:
         link: https://github.com/containous/traefik
         ring: 3
 
+      - name: Kaniko
+        link: https://github.com/GoogleContainerTools/kaniko
+        ring: 2
+
   - name: Observability & Analysis
     technologies:
 
