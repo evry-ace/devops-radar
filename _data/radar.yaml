@@ -32,6 +32,14 @@ quadrants:
         link: https://splunk.com/
         ring: 3
 
+      - name: Spiffe
+        link: https://spiffe.io/
+        ring: 2
+
+      - name: Notary
+        link: https://github.com/theupdateframework/notary
+        ring: 1
+
   - name: CI/CD
     technologies:
 
