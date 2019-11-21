@@ -1,13 +1,231 @@
+# ring 0 = ADOPT
+# ring 1 = TRIAL
+# ring 2 = ASSESS
+# ring 3 = HOLD
+
 version: 2019-11
 quadrants:
   - name: Security
-    technologies: []
+    technologies:
+
+      - name: Vault
+        link: https://www.vaultproject.io/
+        ring: 0
+
+      - name: Open Policy Agent
+        link: https://www.openpolicyagent.org/
+        ring: 1
+
+      - name: 'MITRE ATT&CK'
+        link: https://attack.mitre.org/
+        ring: 2
+
+      - name: Falco
+        link: https://falco.org/
+        ring: 1
+
+      - name: Twistlock
+        link: https://twistlock.com/
+        ring: 1
+
+      - name: Splunk
+        link: https://splunk.com/
+        ring: 3
+
+      - name: Spiffe
+        link: https://spiffe.io/
+        ring: 2
+
+      - name: Notary
+        link: https://github.com/theupdateframework/notary
+        ring: 1
 
   - name: CI/CD
-    technologies: []
+    technologies:
 
-  - name: Orchestration
-    technologies: []
+      - name: Terraform
+        link: https://terraform.io
+        ring: 0
 
-  - name: Operation
-    technologies: []
+      - name: Helm
+        link: https://helm.sh
+        ring: 0
+
+      - name: Jenkins X
+        link: https://jenkins-x.io/
+        ring: 1
+
+      - name: Flux
+        link: github.com/fluxcd/flux
+        ring: 1
+
+      - name: Tekton
+        link: https://tekton.dev
+        ring: 2
+
+      - name: GitHub Actions
+        link: https://github.com/features/actions
+        ring: 2
+
+      - name: Argo
+        link: https://argoproj.github.io/
+        ring: 2
+
+      - name: Bamboo
+        link: atlassian.com/software/bamboo
+        ring: 3
+
+      - name: Octopus Deploy
+        link: https://octopus.com/
+        ring: 3
+
+      - name: Travis CI
+        link: https://travis-ci.com/
+        ring: 3
+
+      - name: Jenkins
+        link: https://jenkins.io/
+        ring: 3
+
+      - name: TeamCity
+        link: https://www.jetbrains.com/teamcity/
+        ring: 3
+
+      - name: XebiaLabs XL Deploy
+        link: https://xebialabs.com/products/deployment-automation-xl-deploy/
+        ring: 1
+
+      - name: OpenShift
+        link: https://www.openshift.com/
+        ring: 2
+
+  - name: Orchestration & Management
+    technologies:
+
+      - name: Kubernetes
+        link: https://kubernetes.io
+        ring: 0
+
+      - name: gRPC
+        link: https://grpc.io/
+        ring: 1
+
+      - name: Envoy
+        link: https://www.envoyproxy.io/
+        ring: 1
+
+      - name: Kong
+        link: https://konghq.com/
+        ring: 1
+
+      - name: Ambassador
+        link: https://www.getambassador.io/
+        ring: 2
+
+      - name: Gloo
+        link: https://www.solo.io/
+        ring: 2
+
+      - name: Knative
+        link: https://knative.dev
+        ring: 2
+
+      - name: Docker Swarm
+        ring: 3
+
+      - name: Docker EE
+        ring: 3
+
+      - name: Nomad
+        link: https://www.nomadproject.io/
+        ring: 3
+
+      - name: Consul
+        link: https://www.consul.io/
+        ring: 3
+
+      - name: Sceptre
+        link: https://sceptre.cloudreach.com
+        ring: 2
+
+      - name: Puppet
+        link: https://puppet.com/
+        ring: 1
+
+      - name: Traefik
+        link: https://github.com/containous/traefik
+        ring: 3
+
+      - name: Kaniko
+        link: https://github.com/GoogleContainerTools/kaniko
+        ring: 2
+
+  - name: Observability & Analysis
+    technologies:
+
+      - name: Prometheus
+        link: https://prometheus.io
+        ring: 0
+
+      - name: Grafana
+        link: https://grafana.com/
+        ring: 0
+
+      - name: Fluentd
+        link: https://www.fluentd.org/
+        ring: 0
+
+      - name: cert-manager
+        link: http://docs.cert-manager.io/en/latest/
+        ring: 0
+
+      - name: Istio
+        link: https://istio.io/
+        ring: 1
+
+      - name: Kiali
+        link: https://www.kiali.io/
+        ring: 1
+
+      - name: Jaeger
+        link: https://www.jaegertracing.io/
+        ring: 1
+
+      - name: Grafana Loki
+        link: https://grafana.com/oss/loki
+        ring: 2
+
+      - name: OpenTelemetry
+        link: https://opentelemetry.io/
+        ring: 3
+
+      - name: Docker Registry
+        ring: 3
+
+      - name: Logstash
+        link: https://www.elastic.co/products/logstash
+        ring: 3
+
+      - name: Splunk
+        link: https://www.splunk.com/
+        ring: 3
+
+      - name: Honeycomb
+        link: https://www.honeycomb.io/
+        ring: 1
+
+      - name: New Relic
+        link: https://newrelic.com/
+        ring: 2
+
+      - name: Dynatrace
+        link: https://www.dynatrace.com/
+        ring: 2
+
+      - name: Cortex
+        link: https://github.com/cortexproject/cortex
+        ring: 1
+
+      - name: Thanos
+        link: https://github.com/cortexproject/thanos
+        ring: 1
