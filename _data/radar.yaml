@@ -40,6 +40,18 @@ quadrants:
         link: https://github.com/theupdateframework/notary
         ring: 1
 
+      - name: Clair
+        link: https://github.com/quay/clair
+        ring: 0 
+
+      - name: Kube-hunter
+        link: https://github.com/aquasecurity/kube-hunter
+        ring: 2 
+
+      - name: Kube-bench 
+        link: https://github.com/aquasecurity/kube-bench
+        ring: 1 
+      
   - name: CI/CD
     technologies:
 
