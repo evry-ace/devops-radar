@@ -46,7 +46,7 @@ quadrants:
 
       - name: Kube-hunter
         link: https://github.com/aquasecurity/kube-hunter
-        ring: 2 
+        ring: 1 
 
       - name: Kube-bench 
         link: https://github.com/aquasecurity/kube-bench
