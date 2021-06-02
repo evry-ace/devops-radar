@@ -172,6 +172,10 @@ quadrants:
         link: https://github.com/GoogleContainerTools/kaniko
         ring: 2
 
+      - name: Kubed
+        link: https://appscode.com/products/kubed/
+        ring: 2
+
   - name: Observability & Analysis
     technologies:
 
