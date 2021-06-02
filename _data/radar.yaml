@@ -51,6 +51,10 @@ quadrants:
       - name: Kube-bench 
         link: https://github.com/aquasecurity/kube-bench
         ring: 1 
+
+      - name: Hashicorp Boundary
+        link: https://www.boundaryproject.io/
+        ring: 1 
       
   - name: CI/CD
     technologies:
